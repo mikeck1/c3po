@@ -1,9 +1,11 @@
 # c3po - Gatoraid (Easy data access tool for land and space based telescope datas) #Python #Flask #Pymongo
 <center>
 Import data from the internet into the MongoDB server
-![Alt text](https://i.imgur.com/zQKR426.png) <br></br>
+![Alt text](https://i.imgur.com/zQKR426.png)
+ <br></br>
 Regions are displayed in all regions
-![Alt text](https://i.imgur.com/94oF12j.png) <br></br>
+![Alt text](https://i.imgur.com/94oF12j.png) 
+<br></br>
 All stars per region are added as 'GatorObjects' for each region.
 ![Alt text](https://i.imgur.com/LFC5v32.png)
  </center>
