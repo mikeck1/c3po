@@ -1,6 +1,6 @@
 # This file is a class of functions used to
 # read text from Gator/ Simbad
-# Written by Michael Kaufman and Marcos 2017
+# Written by Michael. Thank you for the help Marcos and Justin, Fall 2017.
 
 # START OF LIBRARY - ' GatorHelper.py '
 
