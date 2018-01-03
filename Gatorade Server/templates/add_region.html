@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+
+{% block body %}
+<br><br>
+<center>
+<h3>Upload Regions by File</h3>
+<p>Must be a text file. One Region name per line. </p>
+<form method=post enctype=multipart/form-data>
+    <p><input type="file" name="file">
+        <input type="submit" class="btn btn-primary" name="btn" value="Upload">
+</form>
+</center>
+<br>
+<hr>
+<br><br>
+<center><h3>Add Region by name</h3></center>
+<center>
+<p><b>Example:</b> HD 22049 or 2MASS J22480446-2422075 or 2MASS J00291859+0952308 or 2MASS J17295506-5415487 </p>
+<p>or 2MASS J08101691-4856291  or TYC 5241-986-1 are all valid names. This is also true for file uploads.</p>
+
+
+{% from "includes/_formhelpers.html" import render_field %}
+<form method="POST" action="">
+    <div class="form-group">
+        {{render_field(form.name, class_="form-control")}}
+    </div>    
+    <p><input type="submit" class="btn btn-primary" name="btn" value="Submit"></p>
+</form>
+</center>
+<br><br>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1>Dashboard</h1><h2><small>Welcome <b>{{session.username}}</b>!</small></h2> 
+
+<p>Add regions, or edit regions and stars.</p>
+<hr>
+<a class="btn btn-success" href="/add_region">Add Region</a> 
+<a class="btn btn-primary" href="/region/edit">Edit Region</a> 
+<a class="btn btn-primary" href="/edit_star">Edit Star</a>
+
+{% endblock %}
