@@ -8,6 +8,9 @@ Regions are displayed in all regions
 <br></br>
 All stars per region are added as 'GatorObjects' for each region.
 ![Alt text](https://i.imgur.com/LFC5v32.png)
+Details for each star
+![Alt text](https://i.imgur.com/SinrGdp.png)
+![Alt text](https://i.imgur.com/1n2GmhY.png)
 
  <code>readsimbad.py</code> reads regions by region name from a file created from a txt file of names sent to <code>http://simbad.u-strasbg.fr/simbad/</code><br></br>
  then downloads stars from for eah region name from <code>http://irsa.ipac.caltech.edu/applications/Gator/</code><br></br>
