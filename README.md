@@ -8,7 +8,7 @@ Regions are displayed in all regions
 <br></br>
 All stars per region are added as 'GatorObjects' for each region.
 ![Alt text](https://i.imgur.com/LFC5v32.png)
-Details for each star
+Details for each star<br></br>
 ![Alt text](https://i.imgur.com/8xUA8TT.png)
 ![Alt text](https://i.imgur.com/1n2GmhY.png)
 
