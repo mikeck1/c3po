@@ -19,3 +19,6 @@ Details for each star<br></br>
  <code>pip install -r requirements.txt</code><br></br>
   <code>python readsimbad.py</code><br></br>
  <code>python app.py</code>
+
+
+A list of all availible API commands will be posted soon
