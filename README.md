@@ -10,8 +10,7 @@ All stars per region are added as 'GatorObjects' for each region.
 ![Alt text](https://i.imgur.com/LFC5v32.png)
 Details for each star<br></br>
 ![Alt text](https://i.imgur.com/8xUA8TT.png)
-![Alt text](https://i.imgur.com/1n2GmhY.png)<br>
-pipenv install requests
+![Alt text](https://i.imgur.com/1n2GmhY.png)
 <code>pipenv install requests</code><br>
 <code>python readsimbad.py</code><br>
  <code>readsimbad.py</code> reads regions by region name from a file created from a txt file of names sent to <code>http://simbad.u-strasbg.fr/simbad/</code><br></br>
