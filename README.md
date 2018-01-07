@@ -25,4 +25,5 @@ Details for each star<br></br>
 
 
 A list of all availible API commands will be posted soon<br>
-<code><b>GET: </b>localhost:5000/api/region_by_name/HD%2010700</code>
+<code><b>GET: </b>localhost:5000/api/region_by_name/HD%2010700</code><br>
+<code><b>GET: </b>localhost:5000/api/stars/069.40055143/-02.47354857</code>
