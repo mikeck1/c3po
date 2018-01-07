@@ -2,6 +2,8 @@
 
 Import data from the internet into the MongoDB server
 ![Alt text](https://i.imgur.com/zQKR426.png)
+Or add via website
+![Alt text](https://i.imgur.com/Sg8MwGn.png)
  <br></br>
 Regions are displayed in all regions
 ![Alt text](https://i.imgur.com/94oF12j.png) 
