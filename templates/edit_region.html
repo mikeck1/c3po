@@ -1,0 +1,55 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+{% if name==NULL %}
+{% from "includes/_formhelpers.html" import render_field %}
+    <center>
+    <h3>Edit Region by name</h3>
+    <p><b>Example:</b> HD 22049 or 2MASS J22480446-2422075 or 2MASS J00291859+0952308 or 2MASS J17295506-5415487 </p>
+    <p>or 2MASS J08101691-4856291  or TYC 5241-986-1 are all valid names. This is also true for file uploads.</p>
+    <form method="POST" action="">
+        <div class="form-group">
+            {{render_field(form.name, class_="form-control")}}
+        </div>    
+        <p><input type="submit" class="btn btn-primary" name="btn" value="Submit"></p>
+    </form>
+    </center>
+    <br><br>
+{% endif %}
+
+
+
+{% if name %}
+{% from "includes/_formhelpers.html" import render_field %}
+
+
+<div class="form-group">
+
+<form action="" autocomplete="on" method="POST">
+    <div class="form-group">
+    name: <input type="text" name="name" placeholder="name" value="{{ name.name }}"/><br/></div>
+    <div class="form-group">DEC: <input type="text" name="DEC" value="{{ name.DEC }}"/><br/></div>
+    <div class="form-group">RA: <input type="text" name="RA" value="{{ name.RA }}"/><br/></div>
+    <div class="form-group">Identifier: <input type="text" name="Identifier" placeholder="Identifier" value="{{ name.Identifier }}"/><br/></div>
+    <div class="form-group">Type: <input type="text" name="Type" placeholder="Type" value="{{ name.Type }}"/><br/></div>
+    <div class="form-group">Spec: <input type="text" name="spec" placeholder="spec" value="{{ name.spec }}"/><br/></div>
+    <div class="form-group">Searchkey: <input type="text" name="searchkey" placeholder="searchkey" value="{{ name.searchkey }}"/><br/>
+    <div class="form-group">Searchfield: <input type="text" name="searchfield" placeholder="searchfield" value="{{ name.searchfield }}"/><br/></div>
+    <div class="form-group">Object ID: <input type="text" name="objID" value="{{ name._id }}"/><br/></div>
+    <div class="form-group">Mag R: <input type="text" name="MagR" placeholder="MagR" value="{{ name.MagR }}"/><br/></div>
+    <div class="form-group">Mag V: <input type="text" name="MagV" placeholder="MagV" value="{{ name.MagV }}"/><br/></div>
+    <div class="form-group">Mag I: <input type="text" name="MagI" placeholder="MagI" value="{{ name.MagI }}"/><br/></div>
+    <div class="form-group">Mag U: <input type="text" name="MagU" placeholder="MagU" value="{{ name.MagU }}"/><br/></div>
+    <div class="form-group">Mag B: <input type="text" name="MagB" placeholder="MagB" value="{{ name.MagB }}"/><br/></div>
+    <div class="form-group">bib: <input type="text" name="bib" placeholder="bib" value="{{ name.bib }}"/><br/></div>
+    <div class="form-group">nnot: <input type="text" name="nnot" placeholder="nnot" value="{{ name.nnot }}"/><br/></div>
+    <div class="form-group"><p><input type="submit" class="btn btn-primary" name="btn" value="Upload"></p></div>
+    
+</form>
+</div>
+
+</center>
+
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,160 @@
+{% extends 'layout.html' %}
+{% block body %}
+<br>
+<h1></h1>
+<center><h3>Star id: <b>{{test}}</b> from Region ObjectID:<b> {{id}}</b></h3></center>
+</ul>
+
+<br>
+
+
+
+
+{% for post in region.GatorObjects %}
+        {% if test == post.id%}
+                <ul class="list-group">
+                        <li class="list-group-item">
+                                <h3>Star Location: </h3>
+                                <b>id:</b> {{ post.id}}
+                                <b>ra:</b> {{ post.ra}}
+                                <b>dec:</b> {{ post.dec}}<br>
+                                <b>x: </b>{{ post.x}}
+                                <b>y: </b>{{ post.y}}
+                                <b>z: </b>{{ post.z}}<br><br>
+                        </li><br>
+                        <li class="list-group-item">
+                                <h3>Star Details: </h3>
+                                <b>h_blend: </b>{{ post.h_blend}}
+                                <b>x_scan: </b>{{ post.x_scan}}
+                                <b>y_scan: </b>{{ post.y_scan}}
+                                <b>designation: </b>{{ post.designation}}
+                                <b>hemis: </b>{{ post.hemis}}
+                                <b>xdate: </b>{{ post.xdate}}
+                                <b>dist_opt: </b>{{ post.dist_opt}}
+                        </li><br>
+                        <li class="list-group-item">
+                                <h3>Star Specs: </h3>
+                                <b>h_snr: </b>{{ post.h_snr}}
+                                <b>sdet: </b>{{ post.sdet}}
+                                <b>k_mrg_flg: </b>{{ post.k_mrg_flg}}
+                                <b>h_skysig: </b>{{ post.h_skysig}}
+                                <b>j_msig_lgap: </b>{{ post.j_msig_lgap}}
+                                <b>j_blend: </b>{{ post.j_blend}}
+                                <b>k_msig_stdap: </b>{{ post.k_msig_stdap}}
+                        </li><br>
+                        <li class="list-group-item">
+                                <h3>More Details: </h3>
+                                <b>h_prob_pers: </b>{{ post.h_prob_pers}}
+                                <b>h_m_lgap: </b>{{ post.h_m_lgap}}
+                                <b>cc_flg: </b>{{ post.cc_flg}}
+                                <b>j_psfchi: </b>{{ post.j_psfchi}}
+                                <b>k_cmsig: </b>{{ post.k_cmsig}}
+                                <b>j_skyval: </b>{{ post.j_skyval}}
+                                <b>j_msig_r1: </b>{{ post.j_msig_r1}}
+                                <b>cntr: </b>{{ post.cntr}}
+                                <b>k_psf_id: </b>{{ post.k_psf_id}}
+                                <b>h_psfchi: </b>{{ post.h_psfchi}}
+                                <b>ext_key: </b>{{ post.ext_key}}
+                                <b>k_m_stdap: </b>{{ post.k_m_stdap}}<br><br>
+                                <b>pxcntr: </b>{{ post.pxcntr}}
+                                <b>k_msigcom: </b>{{ post.k_msigcom}}
+                                <b>j_mrg_flg: </b>{{ post.j_mrg_flg}}
+                                <b>j_prob_pers: </b>{{ post.j_prob_pers}}
+                                <b>h_psf_id: </b>{{ post.h_psf_id}}
+                                <b>j_msig: </b>{{ post.j_msig}}
+                                <b>h_msigcom: </b>{{ post.h_msigcom}}
+                                <b>j_m: </b>{{ post.j_m}}
+                                <b>k_prg_flg: </b>{{ post.k_prg_flg}}
+                                <b>nopt_mchs: </b>{{ post.nopt_mchs}}
+                                <b>prox: </b>{{ post.prox}}
+                                <b>j_peakpix: </b>{{ post.j_peakpix}}<br><br>
+                                <b>k_cal: </b>{{ post.k_cal}}
+                                <b>j_cmsig: </b>{{ post.j_cmsig}}
+                                <b>spos: </b>{{ post.spos}}
+                                <b>h_msig_psf: </b>{{ post.h_msig_psf}}
+                                <b>err_ang: </b>{{ post.err_ang}}
+                                <b>k_m_psf: </b>{{ post.k_m_psf}}
+                                <b>h_msig_stdap: </b>{{ post.h_msig_stdap}}
+                                <b>dist_edge_ew: </b>{{ post.dist_edge_ew}}
+                                <b>gal_contam: </b>{{ post.gal_contam}}
+                                <b>night_key: </b>{{ post.night_key}}
+                                <b>j_msig_psf: </b>{{ post.j_msig_psf}}
+                                <b>k_prob_pers: </b>{{ post.k_prob_pers}}<br><br>
+                                <b>ndet: </b>{{ post.ndet}}
+                                <b>k_m_lgap: </b>{{ post.k_m_lgap}}
+                                <b>mp_key: </b>{{ post.mp_key}}
+                                <b>dist_edge_ns: </b>{{ post.dist_edge_ns}}
+                                <b>k_snr: </b>{{ post.k_snr}}
+                                <b>j_msigcom: </b>{{ post.j_msigcom}}
+                                <b>j_prnt_id: </b>{{ post.j_prnt_id}}
+                                <b>j_m_psf: </b>{{ post.j_m_psf}}
+                                <b>k_blend: </b>{{ post.k_blend}}
+                                <b>h_m_psf: </b>{{ post.h_m_psf}}
+                                <b>k_msig_r1: </b>{{ post.k_msig_r1}}
+                                <b>h_skyval: </b>{{ post.h_skyval}}
+                                <b>j_m_r1: </b>{{ post.j_m_r1}}
+                                <b>dist_edge_flg: </b>{{ post.dist_edge_flg}}<br><br>
+                                <b>h_msig_lgap: </b>{{ post.h_msig_lgap}}
+                                <b>k_psfchi: </b>{{ post.k_psfchi}}
+                                <b>j_msig_stdap: </b>{{ post.j_msig_stdap}}
+                                <b>a: </b>{{ post.a}}
+                                <b>ph_qual: </b>{{ post.ph_qual}}
+                                <b>b_m_opt: </b>{{ post.b_m_opt}}
+                                <b>k_pix_flg: </b>{{ post.k_pix_flg}}
+                                <b>glat: </b>{{ post.glat}}
+                                <b>k_peakpix: </b>{{ post.k_peakpix}}
+                                <b>use_src: </b>{{ post.use_src}}
+                                <b>k_skyval: </b>{{ post.k_skyval}}
+                                <b>h_mrg_flg: </b>{{ post.h_mrg_flg}}
+                                <b>k_skysig:</b> {{ post.k_skysig}}
+                                <b>j_prg_flg: </b>{{ post.j_prg_flg}}
+                                <b>j_m_lgap: </b>{{ post.j_m_lgap}}
+                                <b>j_snr: </b>{{ post.j_snr}}
+                                <b>k_msig_psf:</b> {{ post.k_msig_psf}}<br><br>
+                                <b>k_m: </b>{{ post.k_m}}
+                                <b>coadd_key: </b>{{ post.coadd_key}}
+                                <b>vr_m_opt: </b>{{ post.vr_m_opt}}
+                                <b>pxpa: </b>{{ post.pxpa}}
+                                <b>h_m_stdap:</b> {{ post.h_m_stdap}}
+                                <b>h_cal: </b>{{ post.h_cal}}
+                                <b>scan_key: </b>{{ post.scan_key}}
+                                <b>scan: </b>{{ post.scan}}
+                                <b>j_cal:</b> {{ post.j_cal}}
+                                <b>j_m_stdap: </b>{{ post.j_m_stdap}}
+                                <b>h_m_r1:</b> {{ post.h_m_r1}}
+                                <b>cc_old:</b> {{ post.c_old}}
+                                <b>h_m: </b>{{ post.h_m}}
+                                <b>phi_opt:</b> {{ post.phi_opt}}
+                                <b>h_msig:</b> {{ post.h_msig}}
+                                <b>h_peakpix:</b> {{ post.h_peakpix}}<br><br>
+                                <b>dup_src: </b>{{ post.dup_src}}
+                                <b>rd_flg:</b> {{ post.d_flg}}
+                                <b>j_pix_flg:</b> {{ post.j_pix_flg}}
+                                <b>k_prnt_id:</b> {{ post.k_prnt_id}}
+                                <b>mp_flg:</b> {{ post.mp_flg}}
+                                <b>h_prnt_id: </b>{{ post.h_prnt_id}}
+                                <b>h_pix_flg:</b> {{ post.h_pix_flg}}
+                                <b>glon:</b> {{ post.glon}}
+                                <b>j_psf_id: </b>{{ post.j_psf_id}}
+                                <b>jdate:</b> {{ post.jdate}}
+                                <b>htm20: </b>{{ post.htm20}}
+                                <b>id_opt:</b> {{ post.id_opt}}
+                                <b>h_cmsig: </b>{{ post.h_cmsig}}
+                                <b>k_msig: </b>{{ post.k_msig}}
+                                <b>k_m_r1: </b>{{ post.k_m_r1}}
+                                <b>bl_flg: </b>{{ post.bl_flg}}
+                                <b>h_prg_flg: </b>{{ post.h_prg_flg}}<br><br>
+                                <b>err_maj:</b> {{ post.err_maj}}
+                                <b>cnf_flg: </b>{{ post.cnf_flg}}
+                                <b>err_min: </b>{{ post.err_min}}
+                                <b>h_msig_r1:</b> {{ post.h_msig_r1}}
+                                <b>j_skysig: </b>{{ post.j_skysig}}
+                        </li><br><br>
+                                
+
+                        </li>
+                </ul>
+        {% endif %}
+{% endfor %}
+
+{% endblock %}

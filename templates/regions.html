@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-6">Viewing all regions in DB</h1>
+          <p class="lead">This will be a result page soon for searched regions.</p>
+        </div>
+</div>
+<h1>Regions</h1>
+<ul class="list-group">
+    
+  {% for region in region %}
+      <li class="list-group-item">
+        <a href="region/{{region._id}}"> <b>Region Name: {{ region.name}}</b> <br>RA: {{ region.RA}} DEC: {{ region.DEC}}, Star Object ID i: {{ region._id}}</a> 
+      </li>
+      
+  {% endfor %}
+</ul>
+
+hi
+{% endblock %}

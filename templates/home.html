@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<center>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-6"><b>c3po project</b> data API tool</h1>
+    <p class="lead-3">This website is designed to import data from irsa.caltech's gator API.</p>
+    {% if session.logged_in == NULL %}
+      <a href="/register" class="btn btn-primary btn-lg">Registration</a>
+      <a href="/login" class="btn btn-success btn-lg">Login</a>
+    {% endif %}
+    {% if session.logged_in %}
+    <p class="lead-6">Logging changes as user <b>{{ session.username}}</b></p>
+    <a href="/add_region" class="btn btn-primary btn-lg">Add a Region</a>
+    {% endif %}
+  </div>
+</center>
+</div>
+{% endblock %}

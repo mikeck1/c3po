@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block body %}
+<br>
+<h1><b>Region Name: {{region.name}}</b>. TYPE:  {{region.Type}}  {{region.Identifier}}</h1>
+<h3>Object ID: {{id}}</h3>
+
+<li class="list-group-item">
+        <h4>Region Location: </h4>
+<b>RA:</b> {{region.RA}}<span style="margin-left:4em"> </span><b>DEC:</b> {{region.DEC}}
+</li>
+<br>
+<li class="list-group-item">
+        <h4>Details of Region: </h4>
+        <b>bib:</b> {{region.bib}}<span style="margin-left:4em"> </span>
+        <b>not:</b> {{region.not}}<span style="margin-left:4em"> </span>
+<b>Type:</b> {{region.Type}}<span style="margin-left:4em"> </span>
+<b>Identifier:</b> {{region.Identifier}}<span style="margin-left:4em"> </span> 
+<b> name:</b> {{region.name}}<span style="margin-left:4em"> </span> <br><br>
+<b> Mag R:</b> {{region.MagR}}<span style="margin-left:4em"> </span>
+<b> Mag I:</b> {{region.MagI}}<span style="margin-left:4em"> </span> 
+<b>Mag U:</b> {{region.MagU}}<span style="margin-left:4em"> </span>
+<b>MagV:</b> {{region.MagV}}<span style="margin-left:4em"> </span>
+<b>Mag B:</b> {{region.MagB}}<span style="margin-left:4em"> </span>
+<b>spec: </b>{{region.spec}}<span style="margin-left:4em"> </span>
+</li>
+<br>
+<li class="list-group-item">
+        <h4>Visible Stars in Region:</h3>
+        {% for hi in region.GatorObjects %}
+<b>Star # {{loop.index}}:</b><a href="/region/{{id}}/star/{{hi.id}}">  RA: {{hi.ra}} DEC: {{hi.dec}} , Star ID: {{hi.id}}</a><span style="margin-left:4em"> </span><br><br>
+        {% endfor %}
+</li>
+{% endblock %}
