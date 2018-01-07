@@ -2,6 +2,7 @@
 
 Import data from the internet into the MongoDB server
 ![Alt text](https://i.imgur.com/zQKR426.png)
+<br>
 Or add via website
 ![Alt text](https://i.imgur.com/Sg8MwGn.png)
  <br></br>
