@@ -356,6 +356,16 @@ def get_all_stars():
       json_results.append(result)
     return toJson(json_results)
 
+# Get JSON by region name
+@app.route('/api/region_by_name/<string:name>')
+def APIgetRegionByName(name):
+    col = db.c3po
+    regions = col.find_one({'name':name})
+    json_results =[]
+    for region in regions:
+        json_results.append(region)
+    return toJson(regions)
+
 # Add a named region.
 @app.route('/api/addregion', methods=['POST'])
 def add_star():
