@@ -24,4 +24,5 @@ Details for each star<br></br>
  <code>python app.py</code>
 
 
-A list of all availible API commands will be posted soon
+A list of all availible API commands will be posted soon<br>
+<code><b>GET: </b>localhost:5000/api/region_by_name/HD%2010700</code>
