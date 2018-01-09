@@ -1,18 +1,19 @@
 # c3po - Gatoraid (Easy data access tool for land and space based telescope datas) #Python #Flask #Pymongo
-![image] with <img src="https://i.imgur.com/Sg8MwGn.png" width="75%" height="75%">
+
 Import data from the internet into the MongoDB server
 <br>
 <b>NEW IN VERSION 2!</b> Add via website
-![](https://i.imgur.com/Sg8MwGn.png | width=350)
+![image] with <img src="https://i.imgur.com/Sg8MwGn.png" width="75%" height="75%">
  <br></br>
 Regions are displayed in all regions
-![Alt text](https://i.imgur.com/94oF12j.png) 
+![image] with <img src="https://i.imgur.com/94oF12j.png" width="75%" height="75%">
 <br></br>
 All stars per region are added as 'GatorObjects' for each region.
-![Alt text](https://i.imgur.com/LFC5v32.png)
+![image] with <img src="https://i.imgur.com/LFC5v32.png" width="75%" height="75%">
 Details for each star<br></br>
-![Alt text](https://i.imgur.com/8xUA8TT.png)
-![Alt text](https://i.imgur.com/1n2GmhY.png)<br><br>
+![image] with <img src="https://i.imgur.com/8xUA8TT.png" width="75%" height="75%">
+![image] with <img src="https://i.imgur.com/1n2GmhY.png" width="75%" height="75%">
+<br><br>
 
  Abstract:<br>
  To add data register an account and in your dashboard select 'add regions by file' and use file 'simbad_new.tsv' for reference.
