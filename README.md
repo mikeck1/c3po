@@ -29,3 +29,12 @@ Details for each star<br></br>
 A list of all availible API commands will be posted soon<br>
 <code><b>GET: </b>localhost:5000/api/region_by_name/HD%2010700</code><br>
 <code><b>GET: </b>localhost:5000/api/stars/069.40055143/-02.47354857</code>
+
+
+ <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
+ <a href="/donate">DONATE</a>
+ </div>
+ 
+ <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0; margin-top:30px">
+ <a href="/blog">VIEW THE BLOG</a>
+ </div>
