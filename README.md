@@ -1,5 +1,5 @@
 # c3po - Gatoraid (Easy data access tool for land and space based telescope datas) #Python #Flask #Pymongo
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://i.imgur.com/Sg8MwGn.png" width="200" height="400" />
 Import data from the internet into the MongoDB server
 <br>
 <b>NEW IN VERSION 2!</b> Add via website
