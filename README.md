@@ -15,9 +15,10 @@ Details for each star<br></br>
 ![Alt text](https://i.imgur.com/1n2GmhY.png)<br><br>
  <b><code>You may need to install additional dependencies.</code><br></br></b><br><br>
 <p align="center">
+ Abstract:<br>
  To add data register an account and in your dashboard select 'add regions by file' and use file 'simbad_new.tsv' for reference.<br>
- For new data go to <code>http://simbad.u-strasbg.fr/simbad/</code> and send a txt file of names and for a tab seperated file that matches<br></br>
- what is found in in file 'simbad_new.tsv'. This data is added to the database, then all stars for each region are found and added to the database via <code>http://irsa.ipac.caltech.edu/applications/Gator/</code><br></br>
+ For new data go to <code>http://simbad.u-strasbg.fr/simbad/</code> and replicate the file named 'simbad_new.tsv', which<br></br>
+contains region data from the simbad app. This data is added to the database and <br><code>http://irsa.ipac.caltech.edu/applications/Gator/</code> API is used to find stars for each region name.<br></br>
  
   ______________________________________________________________________________________________________<br><br>
   <code>app.py</code> runs an API for data access and a website to manage the data with a GUI</br><br>
