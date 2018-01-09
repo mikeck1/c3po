@@ -25,10 +25,15 @@ Details for each star
 contains region data from the simbad app. This data is added to the database and <code>http://irsa.ipac.caltech.edu/applications/Gator/</code> API is used to find stars for each region name.<br>
   ______________________________________________________________________________________________________<br><br>
   Install and run MongoDB Server: 
-   <code><b>Choose your Platform</b>https://docs.mongodb.com/manual/installation/</code><br>
+  <br>
+   <code><b>Choose your Platform: </b>https://docs.mongodb.com/manual/installation/</code><br>
   <br><br>
+  Install Python and pip:
+  <br>
   <code><b>Windows (Follow this guide): </b>https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/</code><br>
   <code><b>OS X/ Linux: </b>sudo easy_install pip</code><br>
+  Run the website and API:
+  <br>
   app.py runs an API and website that manages and displays land and space telescope data from caltech.gator and simbad API's.
   <br>
   <code>pipenv install requests</code>
