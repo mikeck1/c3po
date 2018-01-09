@@ -3,16 +3,16 @@
 Import data from the internet into the MongoDB server
 <br>
 <b>NEW IN VERSION 2!</b> Add via website
-![image] with <img src="https://i.imgur.com/Sg8MwGn.png" width="75%" height="75%">
+<img src="https://i.imgur.com/Sg8MwGn.png" width="75%" height="75%">
  <br></br>
-Regions are displayed in all regions
-![image] with <img src="https://i.imgur.com/94oF12j.png" width="75%" height="75%">
+Regions are displayed
+<img src="https://i.imgur.com/94oF12j.png" width="75%" height="75%">
 <br></br>
 All stars per region are added as 'GatorObjects' for each region.
-![image] with <img src="https://i.imgur.com/LFC5v32.png" width="75%" height="75%">
+<img src="https://i.imgur.com/LFC5v32.png" width="75%" height="75%">
 Details for each star<br></br>
-![image] with <img src="https://i.imgur.com/8xUA8TT.png" width="75%" height="75%">
-![image] with <img src="https://i.imgur.com/1n2GmhY.png" width="75%" height="75%">
+![image]  (https://i.imgur.com/8xUA8TT.png")
+![image] (https://i.imgur.com/1n2GmhY.png")
 <br><br>
 
  Abstract:<br>
