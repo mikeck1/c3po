@@ -17,8 +17,8 @@ Details for each star<br></br>
 <code>pipenv install requests</code><br>
 <code>python readsimbad.py</code><br><br><br>
 <p align="center">
- <code>readsimbad.py</code> reads regions by region name from a file created from a txt file of names sent to <code>http://simbad.u-  strasbg.fr/simbad/</code><br></br>
-  then downloads stars from for each region name from <code>http://irsa.ipac.caltech.edu/applications/Gator/</code><br></br>
+ Go to <code>http://simbad.u-strasbg.fr/simbad/</code> and send a txt file of names and for a tab seperated file that matches<br></br>
+ what is found in in file 'simbad_new.tsv'. This data is added to the database, then all stars for each region are found and added to the database via <code>http://irsa.ipac.caltech.edu/applications/Gator/</code><br></br>
  
   ______________________________________________________________________________________________________<br><br>
   <code>app.py</code> runs an API for data access and a website to manage the data with a GUI</br><br>
