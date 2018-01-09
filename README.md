@@ -13,17 +13,17 @@ All stars per region are added as 'GatorObjects' for each region.
 Details for each star<br></br>
 ![Alt text](https://i.imgur.com/8xUA8TT.png)
 ![Alt text](https://i.imgur.com/1n2GmhY.png)<br><br>
- <b><code>You may need to install additional dependencies.</code><br></br></b>
+ <b><code>You may need to install additional dependencies.</code><br></br></b><br><br>
 <code>pipenv install requests</code><br>
 <code>python readsimbad.py</code><br><br><br>
 <p align="center">
  <code>readsimbad.py</code> reads regions by region name from a file created from a txt file of names sent to <code>http://simbad.u-  strasbg.fr/simbad/</code><br></br>
   then downloads stars from for each region name from <code>http://irsa.ipac.caltech.edu/applications/Gator/</code><br></br>
  
-  ______________________________________________________________________________________________________<br>
+  ______________________________________________________________________________________________________<br><br>
   <code>app.py</code> runs an API for data access and a website to manage the data with a GUI</br><br>
   <code>pip install -r requirements.txt</code><br></br>
-  <code>python app.py</code><br>
+  <code>python app.py</code><br><br>
   ______________________________________________________________________________________________________<br><br>
 </p><br>
 A list of all availible API commands will be posted soon<br>
