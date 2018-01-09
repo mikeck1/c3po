@@ -11,8 +11,8 @@ Regions are displayed
 All stars per region are added as 'GatorObjects' for each region.
 <img src="https://i.imgur.com/LFC5v32.png" width="75%" height="75%">
 Details for each star<br></br>
-![image]  (https://i.imgur.com/8xUA8TT.png")
-![image] (https://i.imgur.com/1n2GmhY.png")
+![Alt text](https://i.imgur.com/8xUA8TT.png)
+![Alt text](https://i.imgur.com/1n2GmhY.png)<br><br>
 <br><br>
 
  Abstract:<br>
