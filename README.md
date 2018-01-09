@@ -20,7 +20,7 @@ Details for each star<br></br>
  <code>readsimbad.py</code> reads regions by region name from a file created from a txt file of names sent to <code>http://simbad.u-  strasbg.fr/simbad/</code><br></br>
   then downloads stars from for each region name from <code>http://irsa.ipac.caltech.edu/applications/Gator/</code><br></br>
  </p>
- 
+ ___
  <code>app.py</code> runs an API for data access and a website to manage the data with a GUI</br>
  <code>pip install -r requirements.txt</code><br></br>
  <code>python app.py</code>
@@ -31,10 +31,4 @@ A list of all availible API commands will be posted soon<br>
 <code><b>GET: </b>localhost:5000/api/stars/069.40055143/-02.47354857</code>
 
 
- <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
- <a href="/donate">DONATE</a>
- </div>
- 
- <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0; margin-top:30px">
- <a href="/blog">VIEW THE BLOG</a>
- </div>
+
