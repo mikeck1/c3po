@@ -20,7 +20,7 @@ Details for each star<br></br>
  <code>readsimbad.py</code> reads regions by region name from a file created from a txt file of names sent to <code>http://simbad.u-  strasbg.fr/simbad/</code><br></br>
   then downloads stars from for each region name from <code>http://irsa.ipac.caltech.edu/applications/Gator/</code><br></br>
  </p>
- ___
+ ______________________________________________________________________________________________________<br>
  <code>app.py</code> runs an API for data access and a website to manage the data with a GUI</br>
  <code>pip install -r requirements.txt</code><br></br>
  <code>python app.py</code>
