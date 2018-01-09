@@ -25,11 +25,12 @@ Details for each star
 contains region data from the simbad app. This data is added to the database and <code>http://irsa.ipac.caltech.edu/applications/Gator/</code> API is used to find stars for each region name.<br>
   ______________________________________________________________________________________________________<br><br>
   <br>
-    <b>app.py</b> runs an API and website land and space telescope data from caltech.gator and simbad API's.
+  app.py runs an API and website that manages and displays land and space telescope data from caltech.gator and simbad API's.
+  <br>
   <code>pipenv install requests</code>
   <br>
   <code>pip install -r requirements.txt</code>
-  <br>
+  <br><br>
   <b><code>You may need to install additional dependencies.</b></code>
   <br>
   <code>python app.py</code>
