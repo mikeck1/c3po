@@ -3,7 +3,7 @@
 Import data from the internet into the MongoDB server
 <br>
 <b>NEW IN VERSION 2!</b> Add via website
-<img src="https://i.imgur.com/Sg8MwGn.png" width="75%" height="75%">
+<img src="https://i.imgur.com/Sg8MwGn.png" width="65%" height="75%">
  <br>
 Regions are displayed
 <br>
