@@ -23,7 +23,7 @@ contains region data from the simbad app. This data is added to the database and
   <code>app.py</code> runs an API for data access and a website to manage the data with a GUI</br><br>
   <code>pipenv install requests</code><br>
   <code>pip install -r requirements.txt</code><br></br>
-   <b><code>You may need to install additional dependencies.</code><br></br>
+   <b><code>You may need to install additional dependencies.</b></code><br></br>
   <code>python app.py</code><br><br>
   ______________________________________________________________________________________________________<br><br>
 <br>
