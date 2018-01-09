@@ -2,7 +2,7 @@
 
 Import data from the internet into the MongoDB server
 <br>
-<b>NEW IN VERSION 2!</b> Or add via website
+<b>NEW IN VERSION 2!</b> Add via website
 ![Alt text](https://i.imgur.com/Sg8MwGn.png)
  <br></br>
 Regions are displayed in all regions
