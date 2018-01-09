@@ -14,7 +14,6 @@ Details for each star<br></br>
 ![Alt text](https://i.imgur.com/8xUA8TT.png)
 ![Alt text](https://i.imgur.com/1n2GmhY.png)<br><br>
  <b><code>You may need to install additional dependencies.</code><br></br></b><br><br>
-<p align="center">
  Abstract:<br>
  To add data register an account and in your dashboard select 'add regions by file' and use file 'simbad_new.tsv' for reference.<br>
  For new data go to <code>http://simbad.u-strasbg.fr/simbad/</code> and replicate the file named 'simbad_new.tsv', which<br></br>
@@ -26,7 +25,7 @@ contains region data from the simbad app. This data is added to the database and
   <code>pip install -r requirements.txt</code><br></br>
   <code>python app.py</code><br><br>
   ______________________________________________________________________________________________________<br><br>
-</p><br>
+<br>
 A list of all availible API commands will be posted soon<br>
 <code><b>GET: </b>localhost:5000/api/region_by_name/HD%2010700</code><br>
 <code><b>GET: </b>localhost:5000/api/stars/069.40055143/-02.47354857</code>
