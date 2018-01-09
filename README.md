@@ -24,7 +24,7 @@ Details for each star
  For new data go to <code>http://simbad.u-strasbg.fr/simbad/</code> and replicate the file named 'simbad_new.tsv', which
 contains region data from the simbad app. This data is added to the database and <code>http://irsa.ipac.caltech.edu/applications/Gator/</code> API is used to find stars for each region name.<br>
   ______________________________________________________________________________________________________<br><br>
-  <br>
+  <br><br>
   app.py runs an API and website that manages and displays land and space telescope data from caltech.gator and simbad API's.
   <br>
   <code>pipenv install requests</code>
